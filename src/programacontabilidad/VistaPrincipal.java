@@ -28,6 +28,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
         initComponents();
         this.setLocationRelativeTo(null);
         this.setFocusable(true);
+        System.out.println("hola perro");
         VistaAgregarTransaccion.setLocationRelativeTo(null);
         VistaAgregarTransaccion.setFocusable(true);
         VistaMenu.setLocationRelativeTo(null);
@@ -132,7 +133,6 @@ public class VistaPrincipal extends javax.swing.JFrame {
         TFPrincipalContraseña = new javax.swing.JPasswordField();
         jLabelFondo = new javax.swing.JLabel();
 
-        VistaAgregarTransaccion.setPreferredSize(new java.awt.Dimension(744, 626));
         VistaAgregarTransaccion.setResizable(false);
         VistaAgregarTransaccion.setSize(new java.awt.Dimension(744, 626));
         VistaAgregarTransaccion.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
